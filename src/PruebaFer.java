@@ -52,7 +52,8 @@ public class PruebaFer implements LearningEventListener {
         // create training set (logical XOR function)
         //DataSet trainingSet = new DataSet(10, 3);
 
-        DataSet trainingSet = DataSet.createFromFile("/home/fersca/coloresAutos.txt", 300, 3, ",");
+    	//cantidad de neuronas de inicio, cantidad de fin
+        DataSet trainingSet = DataSet.createFromFile("/home/fersca/coloresAutosCentro50-plata.txt", 300, 7, ",");
         
         //lee el archivo
     	/*
@@ -81,8 +82,9 @@ public class PruebaFer implements LearningEventListener {
         //trainingSet.normalize();
 
     	
+        
         // create multi layer perceptron
-        MultiLayerPerceptron myMlPerceptron = new MultiLayerPerceptron(TransferFunctionType.SIGMOID, 300, 50, 3);
+        MultiLayerPerceptron myMlPerceptron = new MultiLayerPerceptron(TransferFunctionType.SIGMOID, 300, 50, 7);
 
         // enable batch if using MomentumBackpropagation
         if( myMlPerceptron.getLearningRule() instanceof MomentumBackpropagation )
@@ -100,17 +102,20 @@ public class PruebaFer implements LearningEventListener {
 
         // test perceptron
         System.out.println("Testing trained neural network");
-        testNeuralNetwork(myMlPerceptron, trainingSet);
+        
+        //testNeuralNetwork(myMlPerceptron, trainingSet);
 
         // save trained neural network
-        myMlPerceptron.save("myMlPerceptron.nnet");
+        myMlPerceptron.save("myMlPerceptronCentro50-plata.nnet");
 
+        
+        
         // load saved neural network
-        NeuralNetwork loadedMlPerceptron = NeuralNetwork.load("myMlPerceptron.nnet");
+        //NeuralNetwork loadedMlPerceptron = NeuralNetwork.load("myMlPerceptronCentro50.nnet");
 
         // test loaded neural network
         System.out.println("Testing loaded neural network");
-        testNeuralNetwork(loadedMlPerceptron, trainingSet);
+        //testNeuralNetwork(loadedMlPerceptron, trainingSet);
         
         /*
         System.out.println("Prueba final");
