@@ -62,28 +62,28 @@ public class GenerateTrainigSet {
 		ArrayList<String> fotos = new ArrayList<>();
 
 		//celular
-		fotos.add("http://mla-s2-p.mlstatic.com/nokia-asha-311-nuevos-libres-2gb-gtia-camara-3mp-12774-MLA20064729742_032014-O.jpg");
+		//fotos.add("http://mla-s2-p.mlstatic.com/nokia-asha-311-nuevos-libres-2gb-gtia-camara-3mp-12774-MLA20064729742_032014-O.jpg");
 
 		//iphone
-		fotos.add("http://mla-s1-p.mlstatic.com/iphone-5s-apple-16gb-retina-tactil-3g-liberado-chip-a6-ios7-12713-MLA20066149108_032014-O.jpg");
+		//fotos.add("http://mla-s1-p.mlstatic.com/iphone-5s-apple-16gb-retina-tactil-3g-liberado-chip-a6-ios7-12713-MLA20066149108_032014-O.jpg");
 		
 		//samsung s2
-		fotos.add("http://mla-s1-p.mlstatic.com/samsung-galaxy-note-3-n9000-libre-full-hd-wifi-octacore-andr-9310-MLA20015732067_122013-O.jpg");
+		//fotos.add("http://mla-s1-p.mlstatic.com/samsung-galaxy-note-3-n9000-libre-full-hd-wifi-octacore-andr-9310-MLA20015732067_122013-O.jpg");
 		
 		//mochila
-		fotos.add("http://mla-s2-p.mlstatic.com/mochila-hoth-dc-envio-gratis-a-todo-el-pais-6179-MLA4633110882_072013-O.jpg");
+		//fotos.add("http://mla-s2-p.mlstatic.com/mochila-hoth-dc-envio-gratis-a-todo-el-pais-6179-MLA4633110882_072013-O.jpg");
 		
 		//mochila roja
-		fotos.add("http://mla-s2-p.mlstatic.com/quiksilver-mochila-1969-s-envio-gratis-a-todo-el-pais-6937-MLA5139065793_102013-O.jpg");
+		//fotos.add("http://mla-s2-p.mlstatic.com/quiksilver-mochila-1969-s-envio-gratis-a-todo-el-pais-6937-MLA5139065793_102013-O.jpg");
 		
 		//zapato hombre
-		fotos.add("http://mla-s2-p.mlstatic.com/zapatos-de-cuero-para-hombre-12034-MLA20053498006_022014-O.jpg");
+		//fotos.add("http://mla-s2-p.mlstatic.com/zapatos-de-cuero-para-hombre-12034-MLA20053498006_022014-O.jpg");
 		
 		//zapato rojo mujer
-		fotos.add("http://mla-s2-p.mlstatic.com/plataforma-zapato-mujer-ven-a-mi-outlet-ltimos-pares-12659-MLA20062872374_032014-O.jpg");
+		//fotos.add("http://mla-s2-p.mlstatic.com/plataforma-zapato-mujer-ven-a-mi-outlet-ltimos-pares-12659-MLA20062872374_032014-O.jpg");
 		
 		//notebook bangho
-		fotos.add("http://mla-s1-p.mlstatic.com/notebook-bangho-a1-amd-dual-core-8gb-750gb-ati-led-156-hdmi-13155-MLA20072906519_042014-O.jpg");
+		//fotos.add("http://mla-s1-p.mlstatic.com/notebook-bangho-a1-amd-dual-core-8gb-750gb-ati-led-156-hdmi-13155-MLA20072906519_042014-O.jpg");
 		
 		//kindl
 		fotos.add("http://mla-s1-p.mlstatic.com/lampara-de-luz-led-ebook-con-clip-pkindle-sony-ereader-10443-MLA20029834359_012014-O.jpg");
@@ -92,7 +92,7 @@ public class GenerateTrainigSet {
 		fotos.add("http://mla-s2-p.mlstatic.com/lampara-led-7w-rosca-comun-85-de-ahorro-de-energia-40000-hs-11263-MLA20040894428_012014-O.jpg");
 	
 		//imopresora epson linda
-		fotos.add("http://mla-s1-p.mlstatic.com/impresora-epson-lx350-reemplaza-lx300-nuevo-modelo-10934-MLA20037259635_012014-O.jpg");
+		//fotos.add("http://mla-s1-p.mlstatic.com/impresora-epson-lx350-reemplaza-lx300-nuevo-modelo-10934-MLA20037259635_012014-O.jpg");
 		
 		//cartuchos lindos
 		fotos.add("http://mla-s2-p.mlstatic.com/sistema-continuo-imprek-para-xp201-xp401-xp211-xp411-8436-MLA20004353060_112013-O.jpg");
@@ -100,7 +100,15 @@ public class GenerateTrainigSet {
 		//botella linda
 		fotos.add("http://mla-s1-p.mlstatic.com/tinta-recargas-hp-lexmark-100-cc-perfect-print-fotografica-4080-MLA101654612_1426-O.jpg");
 		
-			
+		//taza blanca
+		fotos.add("http://mla-s1-p.mlstatic.com/taza-de-desayuno-x6u-c-plato-porcelana-para-gastronomia-13172-MLA20072734629_042014-O.jpg");
+		
+		//cafetera blanca
+		fotos.add("http://mla-s2-p.mlstatic.com/cafetera-de-filtro-automatica-sikla-dk-20-3l-20-tazas-13195-MLA20072713705_042014-O.jpg");
+		
+		//tazza de hello kitty
+		fotos.add("http://mla-s2-p.mlstatic.com/taza-hello-kitty-glitter-12993-MLA6051482686_032014-O.jpg");
+					
 		return fotos;
 	}
 
@@ -110,43 +118,53 @@ public class GenerateTrainigSet {
 		ArrayList<String> fotos = new ArrayList<>();
 
 		//Placa fea
-		fotos.add("http://mla-s2-p.mlstatic.com/iphone-3gs-16gb-placa-logica-att-13252-MLA20073990501_042014-O.jpg");
+		//fotos.add("http://mla-s2-p.mlstatic.com/iphone-3gs-16gb-placa-logica-att-13252-MLA20073990501_042014-O.jpg");
 
 		//celular con fondo rojo
-		fotos.add("http://mla-s1-p.mlstatic.com/iphone-4-16-gb-impecable-12336-MLA20058947049_032014-O.jpg");
+		//fotos.add("http://mla-s1-p.mlstatic.com/iphone-4-16-gb-impecable-12336-MLA20058947049_032014-O.jpg");
 
 		//celular con fondo oscurisimo
-		fotos.add("http://mla-s1-p.mlstatic.com/iphone-4-16gb-blanco-liberado-en-perfecto-estado-4-fundas-13187-MLA20072406941_032014-O.jpg");
+		//fotos.add("http://mla-s1-p.mlstatic.com/iphone-4-16gb-blanco-liberado-en-perfecto-estado-4-fundas-13187-MLA20072406941_032014-O.jpg");
 
 		//compu con fondo rojo feo
-		fotos.add("http://img2.mlstatic.com/pc-intel-dual-core-sandy-bridge-4g-500g-dvd-led-19-envio-sc_MLA-O-2937887752_072012.jpg");
+		//fotos.add("http://img2.mlstatic.com/pc-intel-dual-core-sandy-bridge-4g-500g-dvd-led-19-envio-sc_MLA-O-2937887752_072012.jpg");
 
 		//pc de escritotio horrible
-		fotos.add("http://mla-s2-p.mlstatic.com/pc-escritorio-hp-pavilion-t720m-impecable-11416-MLA20043809819_022014-O.jpg");
+		//fotos.add("http://mla-s2-p.mlstatic.com/pc-escritorio-hp-pavilion-t720m-impecable-11416-MLA20043809819_022014-O.jpg");
 
 		//compu en el escritorio
-		fotos.add("http://mla-s1-p.mlstatic.com/computadora-pc-completa-funcionando-perfecto-11731-MLA20048940217_022014-O.jpg");
+		//fotos.add("http://mla-s1-p.mlstatic.com/computadora-pc-completa-funcionando-perfecto-11731-MLA20048940217_022014-O.jpg");
 
 		//compu con fondo de madera
-		fotos.add("http://mla-s1-p.mlstatic.com/computadora-hp-d7800p-core-2-duo-233ghz-envio-gratis-10872-MLA20034708997_012014-O.jpg");
+		//fotos.add("http://mla-s1-p.mlstatic.com/computadora-hp-d7800p-core-2-duo-233ghz-envio-gratis-10872-MLA20034708997_012014-O.jpg");
 
 		//gabinete muy de cerca
-		fotos.add("http://mla-s1-p.mlstatic.com/pc-amd-athlon-64-x2-perfecto-estado-9510-MLA20017691588_122013-O.jpg");
+		//fotos.add("http://mla-s1-p.mlstatic.com/pc-amd-athlon-64-x2-perfecto-estado-9510-MLA20017691588_122013-O.jpg");
 
 		//pancarta toda azul
-		fotos.add("http://mla-s1-p.mlstatic.com/pc-amd-apu-fm2-a4-4000-ddr3-4gb-1600-500gb-7347-MLA5195493865_102013-O.jpg");
+		//fotos.add("http://mla-s1-p.mlstatic.com/pc-amd-apu-fm2-a4-4000-ddr3-4gb-1600-500gb-7347-MLA5195493865_102013-O.jpg");
 
 		//fondo amarillo fluo
-		fotos.add("http://mla-s1-p.mlstatic.com/combo-actualizacion-pc-intel-i3-4130-4tagen-4gb-1600-asus-7352-MLA5204295864_102013-O.jpg");
+		fotos.add("http://mla-s1-p.mlstatic.com/lampara-de-pie-moderna-varias-combinaciones-de-colores-5357-MLA4352787969_052013-O.jpg");
 
 		//fondo super oscuro
 		fotos.add("http://mla-s2-p.mlstatic.com/iphone-4s-16-gb-12749-MLA20065710022_032014-O.jpg");
 		
 		//fondo rosa feo
-		fotos.add("http://img2.mlstatic.com/impresora-epson-t50-sistema-continuo-tinta-de-sublimar-aqx_MLA-O-76911000_3812.jpg");
+		fotos.add("http://mla-s2-p.mlstatic.com/lampara-de-pie-de-bronce-7898-MLA5290125474_102013-O.jpg");
 		
 		//iphone fondo oscuro
 		fotos.add("http://mla-s1-p.mlstatic.com/iphone-4s-16gb-3g-movistar-12201-MLA20055760454_022014-O.jpg");
+		
+		//pacarta gris oscura
+		fotos.add("http://mla-s2-p.mlstatic.com/todo-oscuro-sin-estrellas-stephen-king-tapas-duras-4517-MLA3726917997_012013-O.jpg");
+		
+		//taza con fondo oscuro
+		fotos.add("http://mla-s1-p.mlstatic.com/monsters-high-tazas-nuevos-disenos-877-MLA4721145651_072013-O.jpg");
+		
+		//chapas verdes y marrones
+		fotos.add("http://mla-s2-p.mlstatic.com/monsters-high-tazas-nuevos-disenos-859-MLA4721167472_072013-O.jpg");
+		
 		return fotos;
 	}
 

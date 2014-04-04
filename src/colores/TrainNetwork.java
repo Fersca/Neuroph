@@ -26,7 +26,7 @@ public class TrainNetwork implements LearningEventListener {
     public void run() throws IOException {
 
     	//cantidad de neuronas de inicio, cantidad de fin
-        DataSet trainingSet = DataSet.createFromFile("trainingSet.txt", 675, 2, ",");
+        DataSet trainingSet = DataSet.createFromFile("trainingSet.txt", 1200, 2, ",");
         
         //lee el archivo
     	/*
@@ -56,7 +56,7 @@ public class TrainNetwork implements LearningEventListener {
 
     	
         // create multi layer perceptron
-        MultiLayerPerceptron myMlPerceptron = new MultiLayerPerceptron(TransferFunctionType.SIGMOID, 675, 150, 2);
+        MultiLayerPerceptron myMlPerceptron = new MultiLayerPerceptron(TransferFunctionType.SIGMOID, 1200, 300, 50, 2);
 
         // enable batch if using MomentumBackpropagation
         if( myMlPerceptron.getLearningRule() instanceof MomentumBackpropagation )

@@ -9,7 +9,7 @@ import javax.imageio.ImageIO;
 
 public class ColorDetector {
 
-	private static final int TAMANO_BLOQUE = 15;
+	private static final int TAMANO_BLOQUE = 20;
 	
 	public String detectColors(String foto) throws Exception {
 					
@@ -81,7 +81,7 @@ public class ColorDetector {
 		    int cant=0;
 		    int cant2=0;
 		    
-		    //final int BORDE = 6;
+		    //final int BORDE = 3;
 		    
 			for (int i=0;i<TAMANO_BLOQUE;i++){
 				for (int j=0;j<TAMANO_BLOQUE;j++){
