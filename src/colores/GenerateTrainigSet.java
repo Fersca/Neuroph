@@ -60,40 +60,31 @@ public class GenerateTrainigSet {
 	private ArrayList<String> obtieneFotosLindas() {
 
 		ArrayList<String> fotos = new ArrayList<>();
-
+		
 		//celular
-		//fotos.add("http://mla-s2-p.mlstatic.com/nokia-asha-311-nuevos-libres-2gb-gtia-camara-3mp-12774-MLA20064729742_032014-O.jpg");
+		fotos.add("http://mla-s2-p.mlstatic.com/nokia-asha-311-nuevos-libres-2gb-gtia-camara-3mp-12774-MLA20064729742_032014-O.jpg");
 
 		//iphone
-		//fotos.add("http://mla-s1-p.mlstatic.com/iphone-5s-apple-16gb-retina-tactil-3g-liberado-chip-a6-ios7-12713-MLA20066149108_032014-O.jpg");
-		
-		//samsung s2
-		//fotos.add("http://mla-s1-p.mlstatic.com/samsung-galaxy-note-3-n9000-libre-full-hd-wifi-octacore-andr-9310-MLA20015732067_122013-O.jpg");
-		
+		fotos.add("http://mla-s1-p.mlstatic.com/iphone-5s-apple-16gb-retina-tactil-3g-liberado-chip-a6-ios7-12713-MLA20066149108_032014-O.jpg");
+				
 		//mochila
-		//fotos.add("http://mla-s2-p.mlstatic.com/mochila-hoth-dc-envio-gratis-a-todo-el-pais-6179-MLA4633110882_072013-O.jpg");
+		fotos.add("http://mla-s2-p.mlstatic.com/mochila-hoth-dc-envio-gratis-a-todo-el-pais-6179-MLA4633110882_072013-O.jpg");
 		
 		//mochila roja
-		//fotos.add("http://mla-s2-p.mlstatic.com/quiksilver-mochila-1969-s-envio-gratis-a-todo-el-pais-6937-MLA5139065793_102013-O.jpg");
-		
-		//zapato hombre
-		//fotos.add("http://mla-s2-p.mlstatic.com/zapatos-de-cuero-para-hombre-12034-MLA20053498006_022014-O.jpg");
-		
+		fotos.add("http://mla-s2-p.mlstatic.com/quiksilver-mochila-1969-s-envio-gratis-a-todo-el-pais-6937-MLA5139065793_102013-O.jpg");
+				
 		//zapato rojo mujer
-		//fotos.add("http://mla-s2-p.mlstatic.com/plataforma-zapato-mujer-ven-a-mi-outlet-ltimos-pares-12659-MLA20062872374_032014-O.jpg");
+		fotos.add("http://mla-s2-p.mlstatic.com/plataforma-zapato-mujer-ven-a-mi-outlet-ltimos-pares-12659-MLA20062872374_032014-O.jpg");
 		
 		//notebook bangho
-		//fotos.add("http://mla-s1-p.mlstatic.com/notebook-bangho-a1-amd-dual-core-8gb-750gb-ati-led-156-hdmi-13155-MLA20072906519_042014-O.jpg");
+		fotos.add("http://mla-s1-p.mlstatic.com/notebook-bangho-a1-amd-dual-core-8gb-750gb-ati-led-156-hdmi-13155-MLA20072906519_042014-O.jpg");
 		
 		//kindl
 		fotos.add("http://mla-s1-p.mlstatic.com/lampara-de-luz-led-ebook-con-clip-pkindle-sony-ereader-10443-MLA20029834359_012014-O.jpg");
 		
 		//lampara led
 		fotos.add("http://mla-s2-p.mlstatic.com/lampara-led-7w-rosca-comun-85-de-ahorro-de-energia-40000-hs-11263-MLA20040894428_012014-O.jpg");
-	
-		//imopresora epson linda
-		//fotos.add("http://mla-s1-p.mlstatic.com/impresora-epson-lx350-reemplaza-lx300-nuevo-modelo-10934-MLA20037259635_012014-O.jpg");
-		
+			
 		//cartuchos lindos
 		fotos.add("http://mla-s2-p.mlstatic.com/sistema-continuo-imprek-para-xp201-xp401-xp211-xp411-8436-MLA20004353060_112013-O.jpg");
 		
@@ -108,6 +99,9 @@ public class GenerateTrainigSet {
 		
 		//tazza de hello kitty
 		fotos.add("http://mla-s2-p.mlstatic.com/taza-hello-kitty-glitter-12993-MLA6051482686_032014-O.jpg");
+		
+		//carrito linto
+		fotos.add("http://img1.mlstatic.com/bb-feliz-coche-cuna-duck-frontier-vip-manija-revatible25kg_MLA-O-2982146576_082012.jpg");
 					
 		return fotos;
 	}
@@ -116,34 +110,9 @@ public class GenerateTrainigSet {
 	private ArrayList<String> obtieneFotosFeas() {
 
 		ArrayList<String> fotos = new ArrayList<>();
-
-		//Placa fea
-		//fotos.add("http://mla-s2-p.mlstatic.com/iphone-3gs-16gb-placa-logica-att-13252-MLA20073990501_042014-O.jpg");
-
-		//celular con fondo rojo
-		//fotos.add("http://mla-s1-p.mlstatic.com/iphone-4-16-gb-impecable-12336-MLA20058947049_032014-O.jpg");
-
-		//celular con fondo oscurisimo
-		//fotos.add("http://mla-s1-p.mlstatic.com/iphone-4-16gb-blanco-liberado-en-perfecto-estado-4-fundas-13187-MLA20072406941_032014-O.jpg");
-
-		//compu con fondo rojo feo
-		//fotos.add("http://img2.mlstatic.com/pc-intel-dual-core-sandy-bridge-4g-500g-dvd-led-19-envio-sc_MLA-O-2937887752_072012.jpg");
-
-		//pc de escritotio horrible
-		//fotos.add("http://mla-s2-p.mlstatic.com/pc-escritorio-hp-pavilion-t720m-impecable-11416-MLA20043809819_022014-O.jpg");
-
-		//compu en el escritorio
-		//fotos.add("http://mla-s1-p.mlstatic.com/computadora-pc-completa-funcionando-perfecto-11731-MLA20048940217_022014-O.jpg");
-
-		//compu con fondo de madera
-		//fotos.add("http://mla-s1-p.mlstatic.com/computadora-hp-d7800p-core-2-duo-233ghz-envio-gratis-10872-MLA20034708997_012014-O.jpg");
-
-		//gabinete muy de cerca
-		//fotos.add("http://mla-s1-p.mlstatic.com/pc-amd-athlon-64-x2-perfecto-estado-9510-MLA20017691588_122013-O.jpg");
-
-		//pancarta toda azul
-		//fotos.add("http://mla-s1-p.mlstatic.com/pc-amd-apu-fm2-a4-4000-ddr3-4gb-1600-500gb-7347-MLA5195493865_102013-O.jpg");
-
+		//lampara linda
+		fotos.add("http://mla-s2-p.mlstatic.com/lampara-colgantede-techoiluminacionpantalla-de-50cm-4097-MLA113136360_3120-O.jpg");
+				
 		//fondo amarillo fluo
 		fotos.add("http://mla-s1-p.mlstatic.com/lampara-de-pie-moderna-varias-combinaciones-de-colores-5357-MLA4352787969_052013-O.jpg");
 
@@ -164,6 +133,24 @@ public class GenerateTrainigSet {
 		
 		//chapas verdes y marrones
 		fotos.add("http://mla-s2-p.mlstatic.com/monsters-high-tazas-nuevos-disenos-859-MLA4721167472_072013-O.jpg");
+		
+		//placard negro
+		fotos.add("http://mla-s2-p.mlstatic.com/porton-garage-pavir-negro-240x200-libre-de-mantenimiento-12719-MLA20065549506_032014-F.jpg");
+
+		//iphone con fondo negro
+		fotos.add("http://mla-s1-p.mlstatic.com/iphone-4s-16gb-negro-libre-para-movistar-en-perfecto-estado-12704-MLA20065483722_032014-O.jpg");
+		
+		//remera negra con fondo gris oscuro
+		fotos.add("http://mla-s1-p.mlstatic.com/chombas-abercrombie-originales-importadas-4905-MLA4000356349_032013-O.jpg");
+		
+		//go pro fea
+		fotos.add("http://mla-s2-p.mlstatic.com/gopro-hero-3-black-edition-surf-12032-MLA20053529564_022014-O.jpg");
+		
+		//bloque negro
+		fotos.add("http://mla-s1-p.mlstatic.com/porcelanato-negro-o-blanco-60x60-pulido-y-rectificado-1-cal-12776-MLA20066029531_032014-O.jpg");
+		
+		//copas de chanpagne con fondo negro
+		fotos.add("http://mla-s1-p.mlstatic.com/frapera-cristal-o-negra-plastica-de-excelente-calidad-5238-MLA4950637301_092013-O.jpg");
 		
 		return fotos;
 	}

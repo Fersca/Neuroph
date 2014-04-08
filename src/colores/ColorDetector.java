@@ -9,7 +9,7 @@ import javax.imageio.ImageIO;
 
 public class ColorDetector {
 
-	private static final int TAMANO_BLOQUE = 20;
+	private static final int TAMANO_BLOQUE = 30;
 	
 	public String detectColors(String foto) throws Exception {
 					
@@ -74,30 +74,24 @@ public class ColorDetector {
 				blo.blue=blue/superficieBloque;
 								
 				//Guarda la informacion en las matrices
-				matrizColorNet[blo.col][blo.row] = blo.red+","+blo.green+","+blo.blue;
+				matrizColorNet[blo.col][blo.row] = ""+(blo.red+blo.green+blo.blue)/3;
 			}
 													
 		    String colores1="";
-		    int cant=0;
-		    int cant2=0;
 		    
-		    //final int BORDE = 3;
+		    final int BORDE = 3;
 		    
 			for (int i=0;i<TAMANO_BLOQUE;i++){
 				for (int j=0;j<TAMANO_BLOQUE;j++){
 					
 					//solo obtiene los cuadraditos del borde
-					//if (i<BORDE || i>(TAMANO_BLOQUE-1-BORDE) || j<BORDE || j>TAMANO_BLOQUE-1-BORDE){
+					if (i<BORDE || i>(TAMANO_BLOQUE-1-BORDE) || j<BORDE || j>TAMANO_BLOQUE-1-BORDE){
 						colores1 = colores1 + matrizColorNet[j][i]+",";
-						cant++;
-					//}
-					cant2++;
+					}
 					
 				}
 			}
 		
-			System.out.println("Cant output: "+cant);
-			System.out.println("Cant2 output: "+cant2);
 			return colores1;
 			
 		} catch (Exception e){
